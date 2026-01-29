@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { Nav, ProjectDetail, ActivityDetail } from './components';
-import Home from './pages/Home';
-import { personalInfo } from './data/content';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { Nav, ProjectDetail, ActivityDetail, Hero, Projects, Skills, Languages, Extracurriculars, Contact, Footer } from './components';
+import { personalInfo, projects, languageTests, skills, extracurriculars } from './data/content';
 import './styles/portfolio.css';
 
 const ScrollToTop = () => {
@@ -15,9 +14,30 @@ const ScrollToTop = () => {
   return null;
 };
 
+const Home = () => {
+  return (
+    <>
+      <Hero 
+        name={personalInfo.name}
+        title={personalInfo.title}
+        bio={personalInfo.bio}
+      />
+      <Projects projects={projects} />
+      <Skills skills={skills} />
+      <Languages languageTests={languageTests} />
+      <Extracurriculars extracurriculars={extracurriculars} />
+      <Contact 
+        email={personalInfo.email}
+        github={personalInfo.github}
+        linkedin={personalInfo.linkedin}
+      />
+      <Footer />
+    </>
+  );
+};
+
 const PortfolioContent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <div className="portfolio-container">
       <ScrollToTop />
@@ -38,9 +58,9 @@ const PortfolioContent = () => {
 
 const Portfolio = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <PortfolioContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

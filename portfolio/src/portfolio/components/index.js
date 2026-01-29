@@ -1,0 +1,10 @@
+export { default as Nav } from './Nav';
+export { default as Hero } from './Hero';
+export { default as Projects } from './Projects';
+export { default as Skills } from './Skills';
+export { default as Languages } from './Languages';
+export { default as Extracurriculars } from './Extracurriculars';
+export { default as Contact } from './Contact';
+export { default as Footer } from './Footer';
+export { default as ProjectDetail } from './ProjectDetail';
+export { default as ActivityDetail } from './ActivityDetail';

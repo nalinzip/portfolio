@@ -2,7 +2,7 @@ const Hero = ({ name, title, bio }) => {
   return (
     <section className="hero">
       <div className="animate-up" style={{ opacity: 0 }}>
-        <p className="hero-label">Portfolio / 2025</p>
+        <p className="hero-label">Portfolio / 2026</p>
       </div>
       
       <h1 className="hero-title animate-up delay-1" style={{ opacity: 0 }}>

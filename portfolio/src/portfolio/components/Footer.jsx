@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-inner">
         <span>© {currentYear}</span>
-        <span>Built with React</span>
+        <span>Nunnalin</span>
       </div>
     </footer>
   );

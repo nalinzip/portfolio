@@ -9,15 +9,13 @@ const Contact = ({ email, github, linkedin }) => {
     <section id="contact" className="contact-section">
       <div className="contact-inner">
         <div className="section-header">
-          <span className="section-number">04</span>
           <h2 className="section-title">Get in Touch</h2>
         </div>
 
         <div className="contact-grid">
           <div>
             <p className="contact-text">
-              Open to opportunities in software engineering, 
-              UX/UI design, and machine learning projects.
+              Open to opportunities
             </p>
           </div>
           

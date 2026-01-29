@@ -66,12 +66,11 @@
 
 .nav-logo {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: -0.02em;
   text-decoration: none;
   color: #1a1a1a;
   padding: 8px 16px;
-  background: #f5f5f5;
   border-radius: 100px;
   transition: all 0.3s ease;
 }
@@ -97,11 +96,11 @@
 .nav-link {
   text-decoration: none;
   color: #555;
-  font-size: 13px;
-  font-family: 'Fira Code', monospace;
+  font-size: 24px;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
   text-transform: lowercase;
-  padding: 10px 18px;
+  padding: 10px 20px;
   border-radius: 100px;
   transition: all 0.3s ease;
 }
@@ -130,7 +129,7 @@
 
 .menu-btn span {
   display: block;
-  width: 18px;
+  width: 20px;
   height: 2px;
   background: #1a1a1a;
   border-radius: 2px;
@@ -205,7 +204,7 @@
 
 .hero-label {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   color: #888;
   margin-bottom: 24px;
@@ -232,7 +231,7 @@
 }
 
 .hero-bio {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: #555;
   max-width: 600px;
@@ -245,7 +244,7 @@
 
 .hero-tag span {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   color: #555;
   padding: 12px 20px;
   background: #f5f5f5;
@@ -266,7 +265,7 @@
 
 .section-number {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   color: #888;
   text-transform: uppercase;
@@ -315,7 +314,7 @@
 
 .project-index {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   color: #888;
   padding: 4px 10px;
   background: #fff;
@@ -332,7 +331,7 @@
 
 .project-year {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #888;
   flex-shrink: 0;
   padding: 6px 12px;
@@ -341,7 +340,7 @@
 }
 
 .project-desc {
-  font-size: 15px;
+  font-size: 18px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -355,7 +354,7 @@
 
 .tech-tag {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   padding: 8px 14px;
   background: #fff;
   border-radius: 100px;
@@ -388,7 +387,7 @@
 .back-btn {
   display: inline-block;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
+  font-size: 18px;
   color: #555;
   text-decoration: none;
   margin-bottom: 48px;
@@ -416,7 +415,7 @@
 
 .project-detail-year {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #666;
   padding: 8px 16px;
   background: #f5f5f5;
@@ -425,7 +424,7 @@
 
 .project-detail-role {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #666;
   padding: 8px 16px;
   background: #f5f5f5;
@@ -441,7 +440,7 @@
 }
 
 .project-detail-desc {
-  font-size: 17px;
+  font-size: 18px;
   color: #555;
   line-height: 1.7;
   margin-bottom: 28px;
@@ -455,18 +454,14 @@
 
 .tech-pill {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
-  padding: 10px 18px;
+  font-size: 18px;
+  padding: 10px 20px;
   background: #f5f5f5;
   border-radius: 100px;
   color: #555;
   transition: all 0.2s ease;
 }
 
-.tech-pill:hover {
-  background: #1a1a1a;
-  color: #fff;
-}
 
 /* Project Gallery */
 .project-gallery {
@@ -475,7 +470,7 @@
 
 .project-gallery-label {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #888;
@@ -491,7 +486,7 @@
 .project-gallery-item {
   position: relative;
   aspect-ratio: 16/10;
-  border-radius: 16px;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   background: #f5f5f5;
@@ -541,7 +536,7 @@
 }
 
 .project-section h2 {
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -551,7 +546,7 @@
 }
 
 .project-section p {
-  font-size: 16px;
+  font-size: 18px;
   color: #444;
   line-height: 1.8;
 }
@@ -571,7 +566,7 @@
 }
 
 .feature-list li {
-  font-size: 15px;
+  font-size: 16px;
   color: #444;
   line-height: 1.6;
   padding: 12px 16px;
@@ -630,7 +625,7 @@
 
 .lightbox-caption {
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 16px;
   text-align: center;
 }
@@ -657,7 +652,7 @@
 
 .skill-category h4 {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #888;
@@ -666,7 +661,7 @@
 }
 
 .skill-category p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.8;
   color: #444;
 }
@@ -675,12 +670,12 @@
 .lang-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
 .lang-card {
   padding: 28px 32px;
-  background: #f9f9f9;
+  background: #fafafa;
   border-radius: 20px;
   display: grid;
   grid-template-columns: 1fr auto;
@@ -694,7 +689,7 @@
 }
 
 .lang-name {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 6px;
   letter-spacing: -0.01em;
@@ -702,7 +697,7 @@
 
 .lang-details {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   color: #888;
 }
 
@@ -718,7 +713,7 @@
 
 .lang-date {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   color: #888;
   text-align: right;
   margin-top: 8px;
@@ -755,7 +750,7 @@
 }
 
 .activity-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 8px;
   letter-spacing: -0.01em;
@@ -763,7 +758,7 @@
 
 .activity-role {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   color: #555;
   background: #fff;
   padding: 6px 12px;
@@ -773,7 +768,7 @@
 
 .activity-period {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   color: #888;
   flex-shrink: 0;
   padding: 6px 12px;
@@ -782,11 +777,11 @@
 }
 
 .activity-desc {
-  font-size: 14px;
+  font-size: 18px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 16px;
-}
+}x
 
 .activity-highlights {
   list-style: none;
@@ -799,17 +794,11 @@
 
 .activity-highlights li {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   color: #555;
-  background: #fff;
   padding: 8px 14px;
   border-radius: 100px;
   transition: all 0.2s ease;
-}
-
-.activity-highlights li:hover {
-  background: #1a1a1a;
-  color: #fff;
 }
 
 .activity-card-footer {
@@ -820,7 +809,7 @@
 
 .view-more {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   color: #888;
   padding: 8px 16px;
   background: #fff;
@@ -850,7 +839,7 @@
 .act-back {
   display: inline-block;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
+  font-size: 18px;
   color: #555;
   text-decoration: none;
   margin-bottom: 48px;
@@ -879,7 +868,7 @@
 
 .act-header__role {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #555;
   padding: 8px 16px;
   background: #f5f5f5;
@@ -888,7 +877,7 @@
 
 .act-header__period {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #888;
   padding: 8px 16px;
   background: #f5f5f5;
@@ -904,7 +893,7 @@
 }
 
 .act-header__desc {
-  font-size: 17px;
+  font-size: 18px;
   color: #555;
   line-height: 1.7;
   max-width: 700px;
@@ -919,17 +908,12 @@
 
 .act-tag {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   padding: 10px 16px;
   background: #f5f5f5;
   border-radius: 100px;
   color: #555;
   transition: all 0.2s ease;
-}
-
-.act-tag:hover {
-  background: #1a1a1a;
-  color: #fff;
 }
 
 .act-gallery {
@@ -938,7 +922,7 @@
 
 .act-gallery__label {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #888;
@@ -980,7 +964,7 @@
 
 .act-section__label {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #888;
@@ -988,7 +972,7 @@
 }
 
 .act-section__text {
-  font-size: 16px;
+  font-size: 18px;
   color: #444;
   line-height: 1.8;
 }
@@ -1010,7 +994,7 @@
 }
 
 .act-list li {
-  font-size: 14px;
+  font-size: 18px;
   color: #444;
   line-height: 1.6;
   padding: 12px 16px;
@@ -1033,7 +1017,7 @@
 
 .act-impact__label {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #666;
@@ -1115,7 +1099,7 @@
 .contact-text {
   font-size: 17px;
   line-height: 1.7;
-  color: #888;
+  color: #ffffff;
 }
 
 .contact-links {
@@ -1126,12 +1110,12 @@
 
 .contact-link {
   text-decoration: none;
-  color: #fafafa;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 24px;
-  background: #2a2a2a;
+  /* background: #2a2a2a; */
   border-radius: 16px;
   transition: all 0.3s ease;
 }
@@ -1143,14 +1127,14 @@
 
 .contact-link-label {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
-  color: #666;
+  font-size: 13px;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .contact-link-value {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* Footer */
@@ -1169,8 +1153,8 @@
 
 .footer span {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 11px;
-  color: #555;
+  font-size: 13px;
+  color: #ffffff;
 }
 
 /* Responsive */
@@ -1194,7 +1178,7 @@
   }
   
   .hero-bio {
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .section {
@@ -1215,7 +1199,7 @@
   }
   
   .project-title {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .skills-section {

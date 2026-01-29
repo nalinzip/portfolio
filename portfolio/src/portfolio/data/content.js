@@ -1,10 +1,10 @@
 export const personalInfo = {
-  name: "Your Name",
-  title: "Computer Science & Engineering",
-  email: "your.email@example.com",
-  github: "github.com/yourusername",
-  linkedin: "linkedin.com/in/yourusername",
-  bio: "Computer Science & Engineering student at Ewha Womans University with a passion for full-stack development, UX/UI design, and machine learning. EGPP Scholarship recipient with experience in web development and cross-cultural collaboration."
+  name: "Nunnalin Heimvichit",
+  title: "Thai",
+  email: "nunnalin.h@gmail.com",
+  github: "github.com/nalinzip",
+  linkedin: "linkedin.com/in/nunnalin-heimvichit",
+  bio: "Computer Science & Engineering student at Ewha Womans University with a passion for full-stack development, UX/UI design, and AI. EGPP Scholar with experience in software project and cross-cultural collaboration."
 };
 
 export const education = {
@@ -33,7 +33,7 @@ export const education = {
 export const projects = [
   {
     id: "capstone-project",
-    title: "Real-time Conversation Mediation System",
+    title: "LLM-based Korean Conversation Coaching System",
     description: "AI-powered system to help multinational users communicate in Korean with real-time mediation and context-based coaching.",
     tech: ["AI/ML", "NLP", "UX/UI Design"],
     year: "Spring 2025",
@@ -165,7 +165,7 @@ export const workExperience = [
 export const languageTests = [
   { name: "Thai", score: "Native", date: "", details: "Native speaker" },
   { name: "English", score: "Fluent", date: "", details: "Professional proficiency" },
-  { name: "Korean", score: "TOPIK 6", date: "2025", details: "Highest level" },
+  { name: "Korean", score: "TOPIK 6", date: "", details: "Highest level" },
   { name: "Spanish", score: "Beginner", date: "", details: "Basic communication" },
   { name: "Portuguese", score: "A1", date: "", details: "Certificate of Completion" }
 ];
@@ -296,7 +296,9 @@ export const extracurriculars = [
       ],
       impact: "Gained marketing experience while representing a major Korean food brand."
     },
-    images: []
+    images: [ 
+      // {url: "/images/isfjin.jpg", caption: "Screenshot 1"}
+    ]
   },
   {
     id: "aiesec",

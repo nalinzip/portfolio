@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "nunnalin.h@gmail.com",
   github: "github.com/nalinzip",
   linkedin: "linkedin.com/in/nunnalin-heimvichit",
-  bio: "Computer Science & Engineering student at Ewha Womans University with a passion for full-stack development, UX/UI design, and AI. EGPP Scholar with experience in software project and cross-cultural collaboration."
+  bio: "Computer Science and Engineering student at Ewha Womans University with a passion for full-stack development, UX/UI design, and AI. EGPP Scholar with experience in software project and cross-cultural collaboration."
 };
 
 export const education = {

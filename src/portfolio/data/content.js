@@ -36,7 +36,7 @@ export const projects = [
     title: "LLM-based Korean Conversation Coaching System",
     description: "AI-powered system to help multinational users communicate in Korean with real-time mediation and context-based coaching.",
     tech: ["AI/ML", "NLP", "UX/UI Design"],
-    year: "Spring 2025",
+    year: "Fall 2025",
     role: "AI Engineer & UX/UI Designer",
     images: [],
     details: {

@@ -113,19 +113,21 @@ export const projects = [
   },
   {
     id: "market-charity",
-    title: "Market for Charity Application",
-    description: "Software System Design project with UML-based application design for a charity marketplace platform.",
+    title: "Software System Design : Nanum Store; Ewha Market for Charity Application ",
+    description: "Software System Design project with UML-based application design for a charity marketplace platform. On-campus second-hand store project at Ewha Womans University where all profit supports scholarships, facilities, student activities, and donations.",
     tech: ["UML", "Visual Paradigm", "Figma"],
-    year: "Fall 2024",
-    role: "System Designer",
+    year: "Spring 2023",
+    role: "Software System Designer",
     images: [],
     details: {
       overview: "Comprehensive software system design for a charity-focused marketplace application, utilizing UML diagrams and prototyping tools.",
       features: [
-        "Complete UML documentation",
-        "System architecture design",
-        "UI/UX prototypes in Figma",
-        "Charity marketplace concept"
+        "Designed a hi-fi prototype mobile app to help operate the store, manage inventory, and connect donations with digital records.",
+        "Designed an in-app incentive system that rewards donors with points/badges, converts digital rewards into real-life benefits (discounts, opportunities, etc.)",
+        "Planned volunteer and part-time incentives, tracking contributions through the app.",
+        "Aimed to transform the store into a self-service second-hand store using the app, smart tags, and automated flows.",
+        "Introduced a 24-hour smart donation box with an embedded smart camera to receive donations anytime on campus and automatically register items to reduce staff workload.",
+        "Our goal is to promote a sustainable lifestyle on campus while making store operations more efficient, data-driven, and student-friendly."
       ],
       challenges: "Designing a scalable system architecture that serves both donors and charitable organizations effectively.",
       learnings: "Strengthened understanding of software engineering principles, UML modeling, and system design methodologies."
@@ -135,10 +137,17 @@ export const projects = [
     id: "online-market",
     title: "Online Market Website",
     description: "Full-stack online marketplace website developed as part of Open Software Development course.",
-    tech: ["Web Development", "Open Source"],
+    tech: ["Flask", "Firebase", "HTML", "CSS", "JavaScript", "Github", "Figma"],
     year: "Spring 2024",
     role: "Developer",
-    images: [],
+    images: [ 
+      {url: "images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "images/POTG1.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "images/POTG2.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "images/POTG4.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"}
+    ],
     details: {
       overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",
       features: [
@@ -148,7 +157,7 @@ export const projects = [
         "Open source implementation"
       ],
       challenges: "Implementing secure payment and user management systems.",
-      learnings: "Learned collaborative development practices and open-source contribution workflows."
+      learnings: "Building an online shopping site and learned how to use Firebase for authentication, database, and deployment"
     }
   }
 ];

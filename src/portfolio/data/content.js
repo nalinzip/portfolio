@@ -38,6 +38,9 @@ export const projects = [
     tech: ["AI/ML", "NLP", "UX/UI Design"],
     year: "Fall 2025",
     role: "AI Engineer & UX/UI Designer",
+    links: [
+      { name: "GitHub Repo", url: "https://github.com/HajarFazillah/SEAquence" },
+    ],
     images: [],
     details: {
       overview: "Capstone Design Project focused on developing an AI-powered real-time conversation mediation system to help multinational users with Korean communication through context-based coaching.",
@@ -78,6 +81,9 @@ export const projects = [
     tech: ["React.js", "Figma", "UX/UI Design"],
     year: "Summer 2025",
     role: "Frontend Developer & UX/UI Designer",
+    links: [
+      { name: "GitHub Repo", url: "https://github.com/pook-pick-test" },
+    ],
     images: [],
     details: {
       overview: "WeWha project combining frontend development skills with UX/UI design principles to create an engaging user experience.",
@@ -99,6 +105,9 @@ export const projects = [
     year: "Summer 2025",
     role: "UX/UI Designer & Translator",
     images: [],
+    links: [
+      { name: "GitHub Repo", url: "https://github.com/ECC-WeWha" },
+    ],
     details: {
       overview: "A fun personality test game bridging Korean and Thai cultures, featuring original illustrations and multilingual support.",
       features: [
@@ -147,6 +156,9 @@ export const projects = [
       {url: "/portfolio/images/POTG4.png", caption: "POTG - Online Marketplace Website Screenshot"},
       {url: "/portfolio/images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"},
       {url: "/portfolio/images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"}
+    ],
+    links: [
+      { name: "GitHub Repo", url: "https://github.com/HongYeonLee/POTG" },
     ],
     details: {
       overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",
@@ -305,9 +317,12 @@ export const extracurriculars = [
       ],
       impact: "Gained marketing experience while representing a major Korean food brand."
     },
+    links: [
+      { name: "Instagram : isfj_jinjjalover", url: "https://instagram.com/isfj_jinjjalover" }
+    ],  
     images: [ 
       // {url: "/images/isfjin.jpg", caption: "Screenshot 1"}
-    ]
+    ],
   },
   {
     id: "aiesec",

@@ -66,7 +66,7 @@
 
 .nav-logo {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: -0.02em;
   text-decoration: none;
   color: #1a1a1a;
@@ -96,7 +96,7 @@
 .nav-link {
   text-decoration: none;
   color: #555;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
   text-transform: lowercase;
@@ -1302,4 +1302,31 @@
   .act-gallery__grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Project Link Buttons */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.project-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 18px;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+.project-link-btn:hover {
+  background: #333;
+  transform: translateY(-2px);
 }

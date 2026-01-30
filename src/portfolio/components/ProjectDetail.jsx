@@ -38,6 +38,23 @@ const ProjectDetail = () => {
           </div>
         </header>
 
+        {/* Link Buttons */}
+        {project.links && project.links.length > 0 && (
+          <div className="project-links">
+            {project.links.map((link, index) => (
+              <a 
+                key={index}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link-btn"
+              >
+                {link.name}
+              </a>
+            ))}
+          </div>
+        )}
+
         {/* Image Gallery */}
         {project.images && project.images.length > 0 && (
           <div className="project-gallery">

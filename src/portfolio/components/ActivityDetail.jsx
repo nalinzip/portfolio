@@ -40,6 +40,23 @@ const ActivityDetail = () => {
           </div>
         </header>
 
+        {/* Link Buttons */}
+        {activity.links && activity.links.length > 0 && (
+          <div className="project-links">
+            {activity.links.map((link, index) => (
+              <a 
+                key={index}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link-btn"
+              >
+                {link.name}
+              </a>
+            ))}
+          </div>
+        )}
+
         {activity.images && activity.images.length > 0 && (
           <div className="act-gallery">
             <h2 className="act-gallery__label">Gallery</h2>

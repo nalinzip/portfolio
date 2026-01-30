@@ -35,7 +35,7 @@ export const projects = [
     id: "capstone-project",
     title: "LLM-based Korean Conversation Coaching System",
     description: "AI-powered system to help multinational users communicate in Korean with real-time mediation and context-based coaching.",
-    tech: ["AI/ML", "NLP", "UX/UI Design"],
+    tech: ["HyperClovaX by NAVER", "React Native", "AI/ML", "NLP", "UX/UI Design"],
     year: "Fall 2025",
     role: "AI Engineer & UX/UI Designer",
     links: [
@@ -82,9 +82,17 @@ export const projects = [
     year: "Summer 2025",
     role: "Frontend Developer & UX/UI Designer",
     links: [
-      { name: "GitHub Repo", url: "https://github.com/pook-pick-test" },
+      { name: "GitHub Repo", url: "https://github.com/ECC-WeWha" },
+      { name: "Try our demo", url: "https://wewha.netlify.app" }
     ],
-    images: [],
+    images: [
+      {url: "/portfolio/images/wewha1.png", caption: "WeWha 위화"},
+      {url: "/portfolio/images/wewha2.png", caption: "WeWha 위화"},
+      {url: "/portfolio/images/wewha3.png", caption: "WeWha 위화"},
+      {url: "/portfolio/images/wewha4.png", caption: "WeWha 위화"},
+      {url: "/portfolio/images/wewha5.png", caption: "WeWha 위화"},
+      {url: "/portfolio/images/wewha6.png", caption: "WeWha 위화"},
+    ],
     details: {
       overview: "WeWha project combining frontend development skills with UX/UI design principles to create an engaging user experience.",
       features: [
@@ -104,7 +112,9 @@ export const projects = [
     tech: ["UX/UI Design", "Translation", "Illustration"],
     year: "Summer 2025",
     role: "UX/UI Designer & Translator",
-    images: [],
+    images: [
+      {url: "/portfolio/images/testd1.png", caption: "test:D Figma Design"},
+    ],
     links: [
       { name: "GitHub Repo", url: "https://github.com/ECC-WeWha" },
     ],
@@ -127,6 +137,9 @@ export const projects = [
     tech: ["UML", "Visual Paradigm", "Figma"],
     year: "Spring 2023",
     role: "Software System Designer",
+    links: [
+      {name: "Final Presentation", url: "https://youtu.be/Xm0G08n5c28"}
+    ],
     images: [],
     details: {
       overview: "Comprehensive software system design for a charity-focused marketplace application, utilizing UML diagrams and prototyping tools.",
@@ -146,7 +159,7 @@ export const projects = [
     id: "online-market",
     title: "Online Market Website",
     description: "Full-stack online marketplace website developed as part of Open Software Development course.",
-    tech: ["Flask", "Firebase", "HTML", "CSS", "JavaScript", "Github", "Figma"],
+    tech: ["Kakao Log-in API", "Kakao Address API", "Flask", "Firebase", "HTML", "CSS", "JavaScript", "Github", "Figma"],
     year: "Spring 2024",
     role: "Developer",
     images: [ 
@@ -159,6 +172,7 @@ export const projects = [
     ],
     links: [
       { name: "GitHub Repo", url: "https://github.com/HongYeonLee/POTG" },
+      {name: "Demo Video", url: "https://youtu.be/Pi4Ll_Yc38c"}
     ],
     details: {
       overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",
@@ -170,6 +184,65 @@ export const projects = [
       ],
       challenges: "Implementing secure payment and user management systems.",
       learnings: "Building an online shopping site and learned how to use Firebase for authentication, database, and deployment"
+    }
+  },
+  {
+    id: "connecthai",
+    title: "Human-computer Interaction Project: ConnecThai",
+    description: "An application which aims to help Thai students abroad find comfort, community, and confidence. - Stay connected, even far from home",
+    tech: ["Figma", "UX/UI Design", "Human-computer Interaction", "Hi-fi Prototype Design"],
+    year: "Fall 2025",
+    role: "Mobile Application Designer",
+    images: [ 
+      // {url: "/portfolio/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
+    ],
+    links: [
+      { name: "Figma Interactive Prototype", url: "https://www.figma.com/proto/NshZkUrmc67KjeQZnb07Di/ConnecThai?node-id=0-1&t=r1amx5y1rVQQbA0K-1" },
+      {name: "Demo Video", url: "https://youtu.be/RgeudMxjn9E?si=UyadfY9xdpJwgVOj"}
+    ],
+    details: {
+      overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",
+      features: [
+        "Community board: Posts by category: housing, visa, school, part-time jobs, buy/sell, events",
+        "Thai-friendly map: Map of Thai restaurants, stores, clinics, salons, religious/community places / Reviews + “bookmark list” + directions",
+        "Find friends by university, region, interests, language exchange goals",
+        "Group chats by event (e.g., “Ewha Thai”, “Hongdae hangout",
+      ],
+      challenges: "Complicated community platform structure with various features to accommodate different user needs.",
+      learnings: "In the future, this platform can be expanded into a separate application for international students from diverse nationalities studying abroad."
+    }
+  },
+  {
+    id: "luckyrookie",
+    title: "LuckyRookie - Fortune-telling, Lucky Diary, and Breathing Exercise Application",
+    description: "An application which aims to help Thai students abroad find comfort, community, and confidence. - Stay connected, even far from home",
+    tech: ["Figma", "UX/UI Design", "React Native", "Expo Go", "HTML", "CSS", "JavaScript", "Public APIs", "Spotify API"],
+    year: "Fall 2025",
+    role: "Mobile Application Designer",
+    images: [ 
+      // {url: "/portfolio/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
+    ],
+    links: [
+      {name: "Demo Video", url: "https://youtu.be/3XDQiA77IHQ"}
+    ],
+    details: {
+      overview: "LuckyRookie is a mobile app designed as a digital good-luck charm (Omamori) inspired by Lucky Girl Syndrome. The app helps users reduce anxiety, build confidence, and navigate daily life with positivity through fortune-based features. It supports multicultural fortune systems, combining Eastern and Western beliefs, and focuses on emotional comfort rather than blind reliance on fate",
+      features: [
+        "Boost self-confidence and emotional stability",
+        "Reduce daily anxiety through small, positive rituals",
+        "Improve accessibility to comforting fortune content anytime, anywhere",
+        "Omamori Home : Daily, weekly, and monthly fortunes, Birthdate input with automatic Zodiac calculation, Uses a public Horoscope API",
+        "Fortune Cookie (expo-av): Interactive fortune-cookie experience with sound effects, Random motivational messages and quotes via API",
+        "Lucky Color Chart (2025) : Recommended lucky colors by day of the week",
+        "My Lucky Diary : Record happy moments, favorite songs, breathing exercises (react-native-calendars)",
+        "Photo upload via camera or gallery (expo-image-picker)",
+        "Spotify API integration to log favorite music",
+        "Clover collection as a visual reward system (@react-native-async-storage/async-storage)",
+        "My Lucky Time : Calculates lucky time slots based on birthdate and birth weekday",
+        "Breathing Exercise Mode : Guided breathing with animation"
+      ],
+      challenges: "API Key restrictions and managing multiple features in a single app while maintaining a smooth user experience.",
+      learnings: "Developed skills in mobile app design and development using React Native, integrating various APIs, and creating user-centric features for emotional well-being."
     }
   }
 ];
@@ -318,10 +391,12 @@ export const extracurriculars = [
       impact: "Gained marketing experience while representing a major Korean food brand."
     },
     links: [
-      { name: "Instagram : isfj_jinjjalover", url: "https://instagram.com/isfj_jinjjalover" }
-    ],  
+      { name: "Instagram : isfj_jinjjalover", url: "https://instagram.com/isfj_jinjjalover" },
+      { name: "Tiktok : isfj_jinjjalover", url: "https://www.tiktok.com/@isfjin_jjalover?_t=ZS-8xqUDmkaLiC&_r=1" }
+    ], 
+     
     images: [ 
-      // {url: "/images/isfjin.jpg", caption: "Screenshot 1"}
+      {url: "/portfolio/images/JIN_Ramens_Algorithm.jpg", caption: "Ramen Algorithm"},
     ],
   },
   {

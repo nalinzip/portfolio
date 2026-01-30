@@ -244,7 +244,7 @@
 
 .hero-tag span {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   padding: 12px 20px;
   background: #f5f5f5;
@@ -340,7 +340,7 @@
 }
 
 .project-desc {
-  font-size: 18px;
+  font-size: 16px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -354,7 +354,7 @@
 
 .tech-tag {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   padding: 8px 14px;
   background: #fff;
   border-radius: 100px;
@@ -387,7 +387,7 @@
 .back-btn {
   display: inline-block;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   text-decoration: none;
   margin-bottom: 48px;
@@ -440,7 +440,7 @@
 }
 
 .project-detail-desc {
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   line-height: 1.7;
   margin-bottom: 28px;
@@ -454,7 +454,7 @@
 
 .tech-pill {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 20px;
   background: #f5f5f5;
   border-radius: 100px;
@@ -546,7 +546,7 @@
 }
 
 .project-section p {
-  font-size: 18px;
+  font-size: 16px;
   color: #444;
   line-height: 1.8;
 }
@@ -625,7 +625,7 @@
 
 .lightbox-caption {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 16px;
   text-align: center;
 }
@@ -661,7 +661,7 @@
 }
 
 .skill-category p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   color: #444;
 }
@@ -697,7 +697,7 @@
 
 .lang-details {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
 }
 
@@ -758,7 +758,7 @@
 
 .activity-role {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   background: #fff;
   padding: 6px 12px;
@@ -768,7 +768,7 @@
 
 .activity-period {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
   flex-shrink: 0;
   padding: 6px 12px;
@@ -777,7 +777,7 @@
 }
 
 .activity-desc {
-  font-size: 18px;
+  font-size: 16px;
   color: #666;
   line-height: 1.6;
   margin-bottom: 16px;
@@ -794,7 +794,7 @@
 
 .activity-highlights li {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   padding: 8px 14px;
   border-radius: 100px;
@@ -809,7 +809,7 @@
 
 .view-more {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
   padding: 8px 16px;
   background: #fff;
@@ -839,7 +839,7 @@
 .act-back {
   display: inline-block;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   text-decoration: none;
   margin-bottom: 48px;
@@ -893,7 +893,7 @@
 }
 
 .act-header__desc {
-  font-size: 18px;
+  font-size: 16px;
   color: #555;
   line-height: 1.7;
   max-width: 700px;
@@ -908,7 +908,7 @@
 
 .act-tag {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 16px;
   background: #f5f5f5;
   border-radius: 100px;
@@ -972,7 +972,7 @@
 }
 
 .act-section__text {
-  font-size: 18px;
+  font-size: 16px;
   color: #444;
   line-height: 1.8;
 }
@@ -994,7 +994,7 @@
 }
 
 .act-list li {
-  font-size: 18px;
+  font-size: 16px;
   color: #444;
   line-height: 1.6;
   padding: 12px 16px;
@@ -1026,7 +1026,7 @@
 }
 
 .act-impact__text {
-  font-size: 18px;
+  font-size: 16px;
   color: #fafafa;
   line-height: 1.7;
 }
@@ -1134,7 +1134,7 @@
 }
 
 .contact-link-value {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Footer */
@@ -1178,7 +1178,7 @@
   }
   
   .hero-bio {
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .section {
@@ -1321,7 +1321,7 @@
   color: #fff;
   text-decoration: none;
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 100px;
   transition: all 0.3s ease;
 }

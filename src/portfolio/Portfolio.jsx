@@ -22,9 +22,9 @@ const Home = () => {
         title={personalInfo.title}
         bio={personalInfo.bio}
       />
-      <Projects projects={projects} />
       <Skills skills={skills} />
       <Languages languageTests={languageTests} />
+      <Projects projects={projects} />
       <Extracurriculars extracurriculars={extracurriculars} />
       <Contact 
         email={personalInfo.email}

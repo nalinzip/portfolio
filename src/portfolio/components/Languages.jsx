@@ -2,7 +2,7 @@ const Languages = ({ languageTests }) => {
   return (
     <section id="languages" className="section">
       <div className="section-header">
-        <span className="section-number">02</span>
+        <span className="section-number">01</span>
         <h2 className="section-title">Language Proficiency</h2>
       </div>
 

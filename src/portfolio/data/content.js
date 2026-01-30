@@ -141,12 +141,12 @@ export const projects = [
     year: "Spring 2024",
     role: "Developer",
     images: [ 
-      {url: "public/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
-      {url: "public/images/POTG1.png", caption: "POTG - Online Marketplace Website Screenshot"},
-      {url: "public/images/POTG2.png", caption: "POTG - Online Marketplace Website Screenshot"},
-      {url: "public/images/POTG4.png", caption: "POTG - Online Marketplace Website Screenshot"},
-      {url: "public/images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"},
-      {url: "public/images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"}
+      {url: "/portfolio/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "/portfolio/images/POTG1.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "/portfolio/images/POTG2.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "/portfolio/images/POTG4.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "/portfolio/images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"},
+      {url: "/portfolio/images/POTG3.png", caption: "POTG - Online Marketplace Website Screenshot"}
     ],
     details: {
       overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",

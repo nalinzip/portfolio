@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { Nav, ProjectDetail, ActivityDetail, Hero, Projects, Skills, Languages, Extracurriculars, Contact, Footer } from './components';
-import { personalInfo, projects, languageTests, skills, extracurriculars } from './data/content';
+import { Nav, ProjectDetail, ActivityDetail, Hero, Skills, Languages, Contact, Footer } from './components';
+import { personalInfo, languageTests, skills } from './data/content';
+import ProjectsPage from './pages/ProjectsPage';
+import ActivitiesPage from './pages/ActivitiesPage';
 import './styles/portfolio.css';
 
 const ScrollToTop = () => {
@@ -17,16 +19,14 @@ const ScrollToTop = () => {
 const Home = () => {
   return (
     <>
-      <Hero 
+      <Hero
         name={personalInfo.name}
         title={personalInfo.title}
         bio={personalInfo.bio}
       />
       <Skills skills={skills} />
       <Languages languageTests={languageTests} />
-      <Projects projects={projects} />
-      <Extracurriculars extracurriculars={extracurriculars} />
-      <Contact 
+      <Contact
         email={personalInfo.email}
         github={personalInfo.github}
         linkedin={personalInfo.linkedin}
@@ -49,6 +49,8 @@ const PortfolioContent = () => {
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/activities" element={<ActivitiesPage />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path="/activity/:id" element={<ActivityDetail />} />
       </Routes>

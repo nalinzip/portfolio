@@ -1,18 +1,47 @@
 import { Link, useLocation } from 'react-router-dom';
 
+const NAV_ITEMS = [
+  { label: 'projects', type: 'page', to: '/projects' },
+  { label: 'languages', type: 'anchor', id: 'languages' },
+  { label: 'activities', type: 'page', to: '/activities' },
+  { label: 'contact', type: 'anchor', id: 'contact' },
+];
+
 const Nav = ({ name, menuOpen, setMenuOpen }) => {
   const location = useLocation();
   const isHome = location.pathname === '/';
-  const navItems = ['projects', 'languages', 'activities', 'contact'];
 
-  const handleNavClick = (e, targetId) => {
+  const handleAnchorClick = (e, id) => {
+    setMenuOpen(false);
     if (isHome) {
       e.preventDefault();
-      setMenuOpen(false);
-      document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      setMenuOpen(false);
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const renderLink = (item) => {
+    if (item.type === 'page') {
+      return (
+        <Link
+          key={item.label}
+          to={item.to}
+          className="nav-link"
+          onClick={() => setMenuOpen(false)}
+        >
+          {item.label}
+        </Link>
+      );
+    }
+    return (
+      <Link
+        key={item.label}
+        to={isHome ? `#${item.id}` : `/#${item.id}`}
+        className="nav-link"
+        onClick={(e) => handleAnchorClick(e, item.id)}
+      >
+        {item.label}
+      </Link>
+    );
   };
 
   return (
@@ -21,21 +50,12 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
         <Link to="/" className="nav-logo">
           {name.split(' ')[0].toLowerCase()}<span>.</span>
         </Link>
-        
+
         <div className="nav-links">
-          {navItems.map(item => (
-            <Link 
-              key={item}
-              to={isHome ? `#${item}` : `/#${item}`}
-              className="nav-link"
-              onClick={(e) => handleNavClick(e, item)}
-            >
-              {item}
-            </Link>
-          ))}
+          {NAV_ITEMS.map(renderLink)}
         </div>
-        
-        <button 
+
+        <button
           className={`menu-btn ${menuOpen ? 'active' : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
@@ -45,23 +65,14 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
           <span></span>
         </button>
       </nav>
-      
-      <div 
+
+      <div
         className={`mobile-overlay ${menuOpen ? 'open' : ''}`}
         onClick={() => setMenuOpen(false)}
       />
-      
+
       <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
-        {navItems.map(item => (
-          <Link 
-            key={item}
-            to={isHome ? `#${item}` : `/#${item}`}
-            className="nav-link"
-            onClick={(e) => handleNavClick(e, item)}
-          >
-            {item}
-          </Link>
-        ))}
+        {NAV_ITEMS.map(renderLink)}
       </div>
     </>
   );

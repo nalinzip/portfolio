@@ -267,6 +267,30 @@ export const projects = [
       challenges: "Maintaining an up-to-date and accessible platform for a geographically distributed student community.",
       learnings: "Gained hands-on experience managing a production website for a real organization and community."
     }
+  },
+  {
+    id: "puni-the-florist",
+    title: "Puni the Florist",
+    description: "Indie game on Steam — contributed as a Thai language translator for this cozy florist simulation game.",
+    tech: ["Translation", "Localization", "Thai Language"],
+    year: "2025",
+    role: "Thai Translator",
+    github: "",
+    demo: "https://store.steampowered.com/app/3396290/Puni_the_Florist/",
+    images: [],
+    links: [
+      { name: "Steam Page", url: "https://store.steampowered.com/app/3396290/Puni_the_Florist/" }
+    ],
+    details: {
+      overview: "Puni the Florist is a cozy indie simulation game available on Steam. Contributed as a Thai language translator, bringing the game experience to Thai-speaking players.",
+      features: [
+        "Thai language localization",
+        "Game text and UI translation",
+        "Cultural adaptation for Thai audience"
+      ],
+      challenges: "Accurately conveying game tone and charm while maintaining natural Thai language flow.",
+      learnings: "Gained experience in game localization and the nuances of translating creative content."
+    }
   }
 ];
 

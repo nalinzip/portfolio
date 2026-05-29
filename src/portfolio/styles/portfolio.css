@@ -73,6 +73,9 @@
   padding: 8px 16px;
   border-radius: 100px;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .nav-logo:hover {

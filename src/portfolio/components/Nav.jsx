@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import { Home } from 'lucide-react';
 
 const NAV_ITEMS = [
   { label: 'projects', type: 'page', to: '/projects' },
@@ -48,6 +49,7 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
     <>
       <nav className="nav">
         <Link to="/" className="nav-logo">
+          <Home size={18} strokeWidth={2} />
           {name.split(' ')[0].toLowerCase()}<span>.</span>
         </Link>
 

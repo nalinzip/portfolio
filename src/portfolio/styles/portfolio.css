@@ -217,8 +217,29 @@
   flex-direction: column;
   justify-content: center;
   padding: 120px 48px 80px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image {
+  flex-shrink: 0;
+}
+
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .hero-label {
@@ -1195,7 +1216,17 @@
     min-height: auto;
     padding-top: 120px;
   }
-  
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    gap: 32px;
+  }
+
+  .hero-image img {
+    width: 180px;
+    height: 180px;
+  }
+
   .hero-bio {
     font-size: 16px;
   }

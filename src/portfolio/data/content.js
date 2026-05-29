@@ -244,6 +244,29 @@ export const projects = [
       challenges: "API Key restrictions and managing multiple features in a single app while maintaining a smooth user experience.",
       learnings: "Developed skills in mobile app design and development using React Native, integrating various APIs, and creating user-centric features for emotional well-being."
     }
+  },
+  {
+    id: "tsak-website",
+    title: "TSAK Official Website",
+    description: "Official website for the Thai Student Association in the Republic of Korea (TSAK), serving as the digital hub for Thai students across Korea.",
+    tech: ["Web Development", "UX/UI Design"],
+    year: "2024 - Present",
+    role: "Head of IT Department",
+    images: [],
+    links: [
+      { name: "Visit Website", url: "https://thaistudentsinkr.org/" }
+    ],
+    details: {
+      overview: "Developed and maintained the official website for TSAK as part of the IT Department responsibilities, providing a central platform for the Thai student community in Korea.",
+      features: [
+        "Community information hub",
+        "Event announcements",
+        "Digital presence for Thai students in Korea",
+        "Mobile-responsive design"
+      ],
+      challenges: "Maintaining an up-to-date and accessible platform for a geographically distributed student community.",
+      learnings: "Gained hands-on experience managing a production website for a real organization and community."
+    }
   }
 ];
 

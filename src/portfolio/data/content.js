@@ -107,11 +107,11 @@ export const projects = [
   },
   {
     id: "testd",
-    title: "TestD - Thai-Korean Personality Test Game",
-    description: "Interactive personality test game with Korean-Thai and Korean-English translations, featuring custom UX/UI design.",
-    tech: ["UX/UI Design", "Translation", "Illustration"],
+    title: "TestD - Personality Test Game (Korean → Thai & English)",
+    description: "Multilingual personality test game — localized from Korean into Thai and English, with custom UX/UI design and original illustrations.",
+    tech: ["UX/UI Design", "Localization", "Korean–Thai Translation", "Korean–English Translation", "Illustration"],
     year: "Summer 2025",
-    role: "UX/UI Designer & Translator",
+    role: "UX/UI Designer & Localizer",
     images: [
       {url: "/portfolio/images/testd1.png", caption: "test:D Figma Design"},
     ],
@@ -119,15 +119,15 @@ export const projects = [
       { name: "GitHub Repo", url: "https://github.com/ECC-WeWha" },
     ],
     details: {
-      overview: "A fun personality test game bridging Korean and Thai cultures, featuring original illustrations and multilingual support.",
+      overview: "A fun personality test game originally in Korean, localized into both Thai and English to reach a wider audience. Features original illustrations and a multilingual UX tailored to each target culture.",
       features: [
-        "Korean → Thai translation",
-        "Korean → English translation",
+        "Korean → Thai localization",
+        "Korean → English localization",
         "Custom icon illustrations",
-        "Engaging UX/UI design"
+        "Multilingual UX/UI design"
       ],
-      challenges: "Ensuring cultural nuances were preserved across translations while maintaining engaging gameplay.",
-      learnings: "Gained experience in cross-cultural design, localization, and illustration for digital products."
+      challenges: "Preserving tone, humor, and cultural nuance across both Thai and English translations while keeping the gameplay feel consistent.",
+      learnings: "Gained hands-on experience in game localization — adapting content across two target languages simultaneously and designing UX that works for multiple locales."
     }
   },
   {
@@ -271,10 +271,10 @@ export const projects = [
   {
     id: "puni-the-florist",
     title: "Puni the Florist",
-    description: "Indie game on Steam — contributed as a Thai language translator for this cozy florist simulation game.",
-    tech: ["Translation", "Localization", "Thai Language"],
+    description: "Indie game on Steam — contributed as a Korean localizer, translating from Thai and English sources for this cozy florist simulation game.",
+    tech: ["Localization", "Korean Language", "Translation"],
     year: "2025",
-    role: "Thai Translator",
+    role: "Korean Localizer",
     github: "",
     demo: "https://store.steampowered.com/app/3396290/Puni_the_Florist/",
     images: [],
@@ -282,14 +282,15 @@ export const projects = [
       { name: "Steam Page", url: "https://store.steampowered.com/app/3396290/Puni_the_Florist/" }
     ],
     details: {
-      overview: "Puni the Florist is a cozy indie simulation game available on Steam. Contributed as a Thai language translator, bringing the game experience to Thai-speaking players.",
+      overview: "Puni the Florist is a cozy indie simulation game available on Steam. Contributed as a Korean localizer, working from Thai and English source materials to bring the game to Korean-speaking players.",
       features: [
-        "Thai language localization",
+        "Korean language localization",
         "Game text and UI translation",
-        "Cultural adaptation for Thai audience"
+        "Cross-reference of Thai and English sources",
+        "Cultural adaptation for Korean audience"
       ],
-      challenges: "Accurately conveying game tone and charm while maintaining natural Thai language flow.",
-      learnings: "Gained experience in game localization and the nuances of translating creative content."
+      challenges: "Reconciling nuances between Thai and English source texts to produce natural, consistent Korean that preserves the game's cozy, warm tone.",
+      learnings: "Gained experience in professional game localization, working across multiple source languages and adapting creative content for a Korean-speaking audience."
     }
   }
 ];

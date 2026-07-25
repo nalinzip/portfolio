@@ -370,11 +370,6 @@ export const awards = [
     organization: "AIESEC in Thailand",
     date: "2025",
     to: "/activity/aiesec"
-  },
-  {
-    title: "2026 Study in Korea Short-form Video Contest",
-    organization: "Korean Education Center in Thailand",
-    date: "2026"
   }
 ];
 

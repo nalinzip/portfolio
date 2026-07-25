@@ -33,25 +33,26 @@ export const education = {
 export const projects = [
   {
     id: "capstone-project",
-    title: "LLM-based Korean Conversation Coaching System",
-    description: "AI-powered system to help multinational users communicate in Korean with real-time mediation and context-based coaching.",
-    tech: ["HyperClovaX by NAVER", "React Native", "AI/ML", "NLP", "UX/UI Design"],
-    year: "Fall 2025",
-    role: "AI Engineer & UX/UI Designer",
+    title: "Talkativ: AI-Powered Korean Conversation Coaching System",
+    description: "Context-aware avatar-based conversational simulation and coaching system that helps multinational users improve Korean communication skills.",
+    tech: ["HyperCLOVA X", "KoNLPy", "Sentence Transformers", "scikit-learn", "RESTful APIs", "NLP", "UX/UI Design"],
+    year: "Spring 2026",
+    role: "AI Engineer, Frontend Developer & UX/UI Designer",
     links: [
       { name: "GitHub Repo", url: "https://github.com/HajarFazillah/SEAquence" },
     ],
     images: [],
     details: {
-      overview: "Capstone Design Project focused on developing an AI-powered real-time conversation mediation system to help multinational users with Korean communication through context-based coaching.",
+      overview: "Capstone Design Project focused on an AI-powered, context-aware avatar conversation simulator for Korean communication coaching. The project was selected as one of eight recognized projects by Ewha's Department of Computer Science & Engineering.",
       features: [
-        "Real-time conversation mediation",
-        "Context-based language coaching",
-        "Multinational user support",
-        "AI-powered language assistance"
+        "Built NLP pipelines for politeness analysis, grammar correction, native expression recommendation, and mistake pattern analysis",
+        "Used HyperCLOVA X, KoNLPy, sentence-transformers, and scikit-learn for Korean language feedback",
+        "Integrated RESTful APIs between the frontend and AI backend",
+        "Provided real-time feedback and personalized recommendations for multinational users",
+        "Awarded Outstanding Capstone Project recognition"
       ],
-      challenges: "Developing accurate real-time language processing for multiple language pairs while maintaining context awareness.",
-      learnings: "Gained experience in AI/ML implementation, NLP techniques, and designing user-friendly interfaces for language learning applications."
+      challenges: "Designing feedback that is linguistically useful, context-aware, and fast enough for a simulated conversation flow.",
+      learnings: "Gained hands-on experience building LLM-backed Korean NLP features, connecting AI services through REST APIs, and designing coaching UX for multilingual users."
     }
   },
   {
@@ -76,8 +77,8 @@ export const projects = [
   },
   {
     id: "wewha",
-    title: "WeWha",
-    description: "Frontend development and user experience design project focusing on creating engaging user interfaces.",
+    title: "WeWha: Ewha International Students Community Platform",
+    description: "Community platform for Ewha international students, designed to share information and events and make campus life more accessible.",
     tech: ["React.js", "Figma", "UX/UI Design"],
     year: "Summer 2025",
     role: "Frontend Developer & UX/UI Designer",
@@ -94,24 +95,24 @@ export const projects = [
       {url: "/portfolio/images/wewha6.png", caption: "WeWha 위화"},
     ],
     details: {
-      overview: "WeWha project combining frontend development skills with UX/UI design principles to create an engaging user experience.",
+      overview: "WeWha is a community platform for international students at Ewha Womans University. I contributed frontend development and UX/UI design to help students find campus information, events, and community resources more easily.",
       features: [
-        "Responsive web design",
-        "User-centered interface",
-        "Modern React.js implementation",
-        "Cohesive visual design"
+        "Information and event sharing for international students",
+        "Accessible interface for navigating campus life",
+        "Responsive React.js implementation",
+        "UX/UI design tailored to a multilingual student community"
       ],
-      challenges: "Balancing aesthetic design with functional frontend implementation.",
-      learnings: "Enhanced skills in combining development and design workflows for cohesive product delivery."
+      challenges: "Organizing practical campus information in a way that feels approachable for students from different cultures and language backgrounds.",
+      learnings: "Strengthened my ability to combine frontend development, UX writing, and interface design for a community-centered product."
     }
   },
   {
     id: "testd",
-    title: "TestD - Personality Test Game (Korean → Thai & English)",
+    title: "TestD - Thai-Korean Personality Test Game",
     description: "Multilingual personality test game — localized from Korean into Thai and English, with custom UX/UI design and original illustrations.",
-    tech: ["UX/UI Design", "Localization", "Korean–Thai Translation", "Korean–English Translation", "Illustration"],
+    tech: ["UX/UI Design", "Localization", "Korean–Thai Translation", "Korean–English Translation", "Illustration", "Frontend Development"],
     year: "Summer 2025",
-    role: "UX/UI Designer & Localizer",
+    role: "Translator, UX/UI Designer, Illustrator, Service Planner & Frontend Developer",
     images: [
       {url: "/portfolio/images/testd1.png", caption: "test:D Figma Design"},
     ],
@@ -124,7 +125,9 @@ export const projects = [
         "Korean → Thai localization",
         "Korean → English localization",
         "Custom icon illustrations",
-        "Multilingual UX/UI design"
+        "Multilingual UX/UI design",
+        "Frontend implementation support",
+        "Service planning for personality-test gameplay"
       ],
       challenges: "Preserving tone, humor, and cultural nuance across both Thai and English translations while keeping the gameplay feel consistent.",
       learnings: "Gained hands-on experience in game localization — adapting content across two target languages simultaneously and designing UX that works for multiple locales."
@@ -160,8 +163,8 @@ export const projects = [
     title: "Online Market Website",
     description: "Full-stack online marketplace website developed as part of Open Software Development course.",
     tech: ["Kakao Log-in API", "Kakao Address API", "Flask", "Firebase", "HTML", "CSS", "JavaScript", "Github", "Figma"],
-    year: "Spring 2024",
-    role: "Developer",
+    year: "2024",
+    role: "Full-stack Developer",
     images: [ 
       {url: "/portfolio/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
       {url: "/portfolio/images/POTG1.png", caption: "POTG - Online Marketplace Website Screenshot"},
@@ -175,15 +178,16 @@ export const projects = [
       {name: "Demo Video", url: "https://youtu.be/Pi4Ll_Yc38c"}
     ],
     details: {
-      overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",
+      overview: "Built an online shopping site for the Open Software Development course, learning how to use Firebase for authentication, database, and deployment.",
       features: [
-        "E-commerce functionality",
-        "User authentication",
-        "Product management",
-        "Open source implementation"
+        "Online marketplace flow for listing and browsing products",
+        "Firebase authentication",
+        "Firebase database integration",
+        "Kakao login and address API integrations",
+        "Deployment workflow for a full-stack course project"
       ],
-      challenges: "Implementing secure payment and user management systems.",
-      learnings: "Building an online shopping site and learned how to use Firebase for authentication, database, and deployment"
+      challenges: "Connecting frontend marketplace flows with authentication, product data, and external Kakao APIs in a stable full-stack application.",
+      learnings: "Built an online shopping site and learned how to use Firebase for authentication, database, and deployment."
     }
   },
   {
@@ -201,12 +205,12 @@ export const projects = [
       {name: "Demo Video", url: "https://youtu.be/RgeudMxjn9E?si=UyadfY9xdpJwgVOj"}
     ],
     details: {
-      overview: "Developed an online marketplace website as part of the Open Software Development course, focusing on open-source technologies.",
+      overview: "Designed a high-fidelity mobile prototype for Thai students abroad, helping them find community, local resources, practical information, and confidence while living far from home.",
       features: [
         "Community board: Posts by category: housing, visa, school, part-time jobs, buy/sell, events",
-        "Thai-friendly map: Map of Thai restaurants, stores, clinics, salons, religious/community places / Reviews + “bookmark list” + directions",
+        "Thai-friendly map: Thai restaurants, stores, clinics, salons, religious/community places, reviews, bookmarks, and directions",
         "Find friends by university, region, interests, language exchange goals",
-        "Group chats by event (e.g., “Ewha Thai”, “Hongdae hangout",
+        "Group chats by event, such as Ewha Thai and Hongdae hangout groups",
       ],
       challenges: "Complicated community platform structure with various features to accommodate different user needs.",
       learnings: "In the future, this platform can be expanded into a separate application for international students from diverse nationalities studying abroad."
@@ -215,7 +219,7 @@ export const projects = [
   {
     id: "luckyrookie",
     title: "LuckyRookie - Fortune-telling, Lucky Diary, and Breathing Exercise Application",
-    description: "An application which aims to help Thai students abroad find comfort, community, and confidence. - Stay connected, even far from home",
+    description: "Mobile good-luck charm app inspired by Lucky Girl Syndrome, helping users reduce anxiety and build confidence through daily fortune rituals.",
     tech: ["Figma", "UX/UI Design", "React Native", "Expo Go", "HTML", "CSS", "JavaScript", "Public APIs", "Spotify API"],
     year: "Fall 2025",
     role: "Mobile Application Designer",
@@ -226,7 +230,7 @@ export const projects = [
       {name: "Demo Video", url: "https://youtu.be/3XDQiA77IHQ"}
     ],
     details: {
-      overview: "LuckyRookie is a mobile app designed as a digital good-luck charm (Omamori) inspired by Lucky Girl Syndrome. The app helps users reduce anxiety, build confidence, and navigate daily life with positivity through fortune-based features. It supports multicultural fortune systems, combining Eastern and Western beliefs, and focuses on emotional comfort rather than blind reliance on fate",
+      overview: "LuckyRookie is a mobile app designed as a digital good-luck charm (Omamori) inspired by Lucky Girl Syndrome. The app helps users reduce anxiety, build confidence, and navigate daily life with positivity through fortune-based features. It supports multicultural fortune systems, combining Eastern and Western beliefs, and focuses on emotional comfort rather than blind reliance on fate.",
       features: [
         "Boost self-confidence and emotional stability",
         "Reduce daily anxiety through small, positive rituals",
@@ -247,25 +251,47 @@ export const projects = [
   },
   {
     id: "tsak-website",
-    title: "TSAK Official Website",
-    description: "Official website for the Thai Student Association in the Republic of Korea (TSAK), serving as the digital hub for Thai students across Korea.",
-    tech: ["Web Development", "UX/UI Design"],
-    year: "2024 - Present",
-    role: "Head of IT Department",
+    title: "Thai Student Association in Korea (TSAK) Website",
+    description: "Official Thai Student Association website funded by the Royal Thai Embassy in Seoul, serving as a production hub for Thai students across Korea.",
+    tech: ["Full-stack Development", "Project Management", "REST API Documentation", "UX/UI Design"],
+    year: "2026",
+    role: "Project Manager & Full-stack Developer",
     images: [],
     links: [
       { name: "Visit Website", url: "https://thaistudentsinkr.org/" }
     ],
     details: {
-      overview: "Developed and maintained the official website for TSAK as part of the IT Department responsibilities, providing a central platform for the Thai student community in Korea.",
+      overview: "Led development of the official Thai Student Association in the Republic of Korea website, a project funded by the Royal Thai Embassy in Seoul.",
       features: [
-        "Community information hub",
-        "Event announcements",
-        "Digital presence for Thai students in Korea",
-        "Mobile-responsive design"
+        "Managed end-to-end project planning and stakeholder coordination",
+        "Translated requirements into technical specifications and REST API documentation",
+        "Developed full-stack features for event management and student resources",
+        "Built sections for alumni experiences and sponsor information",
+        "Successfully deployed and maintained the production website in Q1 2026"
       ],
-      challenges: "Maintaining an up-to-date and accessible platform for a geographically distributed student community.",
-      learnings: "Gained hands-on experience managing a production website for a real organization and community."
+      challenges: "Coordinating organization needs, embassy-funded project expectations, and production website delivery for a real student community.",
+      learnings: "Gained hands-on experience in project management, requirements translation, API documentation, full-stack delivery, deployment, and long-term maintenance."
+    }
+  },
+  {
+    id: "okcheon-ok",
+    title: "Kakao Tech For Impact: Okcheon-OK",
+    description: "Social venture software project with Okcheon Newspaper, improving access to relocation support programs and regional settlement information.",
+    tech: ["Claude API", "Policy Matching", "Full-stack Development", "Social Impact", "Kakao Developers Mentoring"],
+    year: "2026",
+    role: "Project Manager & Full-stack Developer",
+    images: [],
+    details: {
+      overview: "Participated in Kakao Tech for Impact, a social venture software development program supported by Kakao and mentored by Kakao developers, in collaboration with Okcheon Newspaper.",
+      features: [
+        "Digital solution for relocation support program discovery",
+        "Eligibility-based government policy recommendations",
+        "Claude API-powered policy matching service",
+        "User profile-based personalization",
+        "Product concept supporting long-term settlement in Okcheon"
+      ],
+      challenges: "Turning complex government policy information into personalized recommendations that are understandable and relevant to each user's eligibility profile.",
+      learnings: "Learned how to connect social-impact requirements with AI-assisted recommendation features and stakeholder-driven product development."
     }
   },
   {
@@ -287,7 +313,8 @@ export const projects = [
         "Korean language localization",
         "Game text and UI translation",
         "Cross-reference of Thai and English sources",
-        "Cultural adaptation for Korean audience"
+        "Cultural adaptation for Korean audience",
+        "Linguistic QA and in-game testing"
       ],
       challenges: "Reconciling nuances between Thai and English source texts to produce natural, consistent Korean that preserves the game's cozy, warm tone.",
       learnings: "Gained experience in professional game localization, working across multiple source languages and adapting creative content for a Korean-speaking audience."

@@ -4,6 +4,8 @@ import { Home } from 'lucide-react';
 const NAV_ITEMS = [
   { label: 'projects', type: 'page', to: '/projects' },
   { label: 'languages', type: 'anchor', id: 'languages' },
+  { label: 'blog', type: 'external', href: 'https://medium.com/@nalinarchive' },
+  { label: 'velog', type: 'external', href: 'https://velog.io/@nunnalin/posts' },
   { label: 'activities', type: 'page', to: '/activities' },
   { label: 'contact', type: 'anchor', id: 'contact' },
 ];
@@ -21,6 +23,21 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
   };
 
   const renderLink = (item) => {
+    if (item.type === 'external') {
+      return (
+        <a
+          key={item.label}
+          href={item.href}
+          className="nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setMenuOpen(false)}
+        >
+          {item.label}
+        </a>
+      );
+    }
+
     if (item.type === 'page') {
       return (
         <Link

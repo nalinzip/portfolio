@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { Nav, ProjectDetail, ActivityDetail, Hero, Skills, Languages, Awards, Contact, Footer } from './components';
-import { personalInfo, languageTests, skills, awards } from './data/content';
+import { Nav, ProjectDetail, ActivityDetail, Hero, Skills, Languages, Awards, Blog, Contact, Footer } from './components';
+import { personalInfo, languageTests, skills, awards, blogs } from './data/content';
 import ProjectsPage from './pages/ProjectsPage';
 import ActivitiesPage from './pages/ActivitiesPage';
 import './styles/portfolio.css';
@@ -27,6 +27,7 @@ const Home = () => {
       <Skills skills={skills} />
       <Languages languageTests={languageTests} />
       <Awards awards={awards} />
+      <Blog blogs={blogs} />
       <Contact
         email={personalInfo.email}
         github={personalInfo.github}

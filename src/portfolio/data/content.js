@@ -378,6 +378,21 @@ export const awards = [
   }
 ];
 
+export const blogs = [
+  {
+    platform: "Medium",
+    title: "nalinarchive",
+    description: "Writing archive for longer reflections, projects, and stories.",
+    url: "https://medium.com/@nalinarchive"
+  },
+  {
+    platform: "Velog",
+    title: "nunnalin",
+    description: "Technical notes, learning logs, and development posts.",
+    url: "https://velog.io/@nunnalin/posts"
+  }
+];
+
 export const extracurriculars = [
   {
     id: "tsak",

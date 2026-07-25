@@ -401,6 +401,9 @@ export const extracurriculars = [
       ],
       impact: "Enhanced connectivity among Thai students in Korea through improved digital platforms and communication tools."
     },
+    links: [
+      { name: "Visit Website", url: "https://thaistudentsinkr.org/" }
+    ],
     images: []
   },
   {
@@ -527,6 +530,30 @@ export const extracurriculars = [
         "Cross-functional teamwork"
       ],
       impact: "Contributed to social impact initiatives while developing business and analytical skills."
+    },
+    images: []
+  },
+  {
+    id: "lotte-card",
+    title: "LOTTE CARD CHECK iN SEOUL Global Supporter",
+    role: "Global Supporter & Content Creator",
+    period: "2026",
+    description: "Worked as a global supporter and content creator for LOTTE Card, creating promotional content for international audiences in Seoul.",
+    highlights: ["Content creation", "Global supporter", "Promotional marketing"],
+    details: {
+      overview: "Participated as a LOTTE CARD CHECK iN SEOUL Global Supporter, creating promotional content that introduces LOTTE Card services and Seoul-based experiences to a global audience.",
+      responsibilities: [
+        "Created promotional content for LOTTE Card campaigns",
+        "Communicated product and lifestyle information for international audiences",
+        "Planned content ideas around Seoul experiences and student life",
+        "Supported brand awareness through social media-friendly storytelling"
+      ],
+      achievements: [
+        "Completed global supporter activities",
+        "Produced promotional content for a major Korean financial brand",
+        "Strengthened digital content planning and brand communication skills"
+      ],
+      impact: "Gained hands-on experience in content marketing, global audience communication, and brand promotion in Korea."
     },
     images: []
   },

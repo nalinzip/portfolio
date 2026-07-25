@@ -346,6 +346,34 @@ export const skills = {
   design: ["Figma", "Pixso", "Visual Paradigm"]
 };
 
+export const awards = [
+  {
+    title: "Honorable Mention Award, 2026 Spring Ewha CSE Capstone Project",
+    organization: "Department of Computer Science and Engineering, Ewha Womans University",
+    date: "2026"
+  },
+  {
+    title: "Grand Prize Team, JIN Ramen Student Supporter JIN&JINY 17th Generation",
+    organization: "OTTOGI",
+    date: "2025"
+  },
+  {
+    title: "Certificate of Completion, Kakao Tech for Impact Campus",
+    organization: "Kakao Impact",
+    date: "2025"
+  },
+  {
+    title: "Social Case Competition 2025: Semi-Final Round",
+    organization: "AIESEC in Thailand",
+    date: "2025"
+  },
+  {
+    title: "2026 Study in Korea Short-form Video Contest",
+    organization: "Korean Education Center in Thailand",
+    date: "2026"
+  }
+];
+
 export const extracurriculars = [
   {
     id: "tsak",

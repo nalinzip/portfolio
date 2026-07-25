@@ -759,6 +759,92 @@
   margin-top: 8px;
 }
 
+/* Awards */
+.awards-section {
+  padding: 120px 48px;
+  background: #ffffff;
+}
+
+.awards-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(0, 1.4fr);
+  gap: 72px;
+  align-items: start;
+}
+
+.awards-heading {
+  position: sticky;
+  top: 120px;
+}
+
+.awards-kicker {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: #888;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  background: #f5f5f5;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.awards-title {
+  font-size: clamp(36px, 7vw, 60px);
+  font-weight: 600;
+  line-height: 1.05;
+  margin-top: 18px;
+  letter-spacing: -0.03em;
+}
+
+.awards-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e8e8e8;
+}
+
+.award-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  padding: 26px 0;
+  border-bottom: 1px solid #e8e8e8;
+  align-items: start;
+  transition: padding 0.25s ease;
+}
+
+.award-row:hover {
+  padding-left: 16px;
+}
+
+.award-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.award-org {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.award-date {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  color: #888;
+  padding: 8px 14px;
+  background: #f5f5f5;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
 /* Extracurricular Activities */
 .activities-list {
   display: flex;
@@ -1270,6 +1356,33 @@
   .lang-score {
     text-align: left;
   }
+
+  .awards-section {
+    padding: 80px 24px;
+  }
+
+  .awards-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .awards-heading {
+    position: static;
+  }
+
+  .awards-title {
+    font-size: 34px;
+  }
+
+  .award-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 24px 0;
+  }
+
+  .award-row:hover {
+    padding-left: 0;
+  }
   
   .activity-card {
     padding: 24px;
@@ -1343,6 +1456,10 @@
 @media (max-width: 480px) {
   .hero-title {
     font-size: 32px;
+  }
+
+  .award-title {
+    font-size: 18px;
   }
   
   .project-gallery-grid {

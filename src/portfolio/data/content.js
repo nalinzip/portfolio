@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "nunnalin.h@gmail.com",
   github: "github.com/nalinzip",
   linkedin: "linkedin.com/in/nunnalin-heimvichit",
-  bio: "My name is Nunnalin, but I usually go by 'Nalin' or '나린'. Computer Science and Engineering student at Ewha Womans University with a passion for full-stack development, UX/UI design, and AI. EGPP Scholar with experience in software projects and cross-cultural collaboration."
+  bio: "I'm Nunnalin, also known as Nalin or 나린, a Computer Science and Engineering student at Ewha Womans University and an EGPP Scholar. I'm especially interested in artificial intelligence, machine learning, natural language processing, and human-centered software systems. I enjoy exploring how AI can make technology more useful, accessible, and meaningful across languages, cultures, and real-world communities."
 };
 
 export const education = {

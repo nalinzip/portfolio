@@ -446,12 +446,12 @@ export const extracurriculars = [
   {
     id: "jin-jiny",
     title: "OTTOGI JIN Ramen Student Supporter",
-    role: "JIN&JINY 17th - Winner",
+    role: "JIN&JINY 17th - Grand Prize Team",
     period: "Summer 2025",
     description: "Selected as winner of OTTOGI JIN Ramen's student supporter program.",
     highlights: ["Brand ambassador", "Marketing", "Competition winner"],
     details: {
-      overview: "Selected as a winner of the 17th generation JIN&JINY program, OTTOGI's student supporter initiative.",
+      overview: "Selected as the Grand Prize Team of the 17th generation JIN&JINY program, OTTOGI's student supporter initiative.",
       responsibilities: [
         "Brand promotion activities",
         "Creative content creation",

@@ -276,22 +276,27 @@ export const projects = [
   {
     id: "okcheon-ok",
     title: "Kakao Tech For Impact: Okcheon-OK",
-    description: "Social venture software project with Okcheon Newspaper, improving access to relocation support programs and regional settlement information.",
-    tech: ["Claude API", "Policy Matching", "Full-stack Development", "Social Impact", "Kakao Developers Mentoring"],
+    description: "Personalized policy curation and local settlement platform for Okcheon return-to-farm and rural migration residents, built through Kakao Tech for Impact.",
+    tech: ["Claude API", "Kakao Login", "Kakao Map", "Supabase", "Railway", "Netlify", "Policy Matching", "Full-stack Development", "Social Impact"],
     year: "2026",
     role: "Project Manager & Full-stack Developer",
     images: [],
+    links: [
+      { name: "Kakao Impact Project Page", url: "https://kakao-impact-foundation.github.io/campus_2026_spring/projects/7/" }
+    ],
     details: {
-      overview: "Participated in Kakao Tech for Impact, a social venture software development program supported by Kakao and mentored by Kakao developers, in collaboration with Okcheon Newspaper.",
+      overview: "Participated in Kakao Tech for Impact, a social venture software development program supported by Kakao and mentored by Kakao developers, in collaboration with Okcheon Newspaper. Through field interviews with Okcheon return-to-farm residents, local activists, and public officials, our team identified that newcomers face fragmented, provider-centered policy information and high fatigue when trying to find support they are eligible for.",
       features: [
-        "Digital solution for relocation support program discovery",
-        "Eligibility-based government policy recommendations",
-        "Claude API-powered policy matching service",
-        "User profile-based personalization",
-        "Product concept supporting long-term settlement in Okcheon"
+        "Built a personalized policy diagnosis flow that matches users with eligible Okcheon support policies after Kakao login and five onboarding questions",
+        "Implemented a two-stage filtering system for actual application eligibility and policy recommendation",
+        "Used Claude API to parse raw policy announcements into structured data for easier matching and maintenance",
+        "Combined public APIs, manual local policy inputs, and an Okcheon-specific policy database including 13 local policies",
+        "Designed policy checklists and deadline reminder concepts to help users move from information discovery to real applications",
+        "Created a Kakao Map-based local encyclopedia for essential places such as agricultural supply stores, subsidy partner shops, and public offices",
+        "Planned a neighborhood settlement map to archive local word-of-mouth information, trusted contacts, and community groups"
       ],
-      challenges: "Turning complex government policy information into personalized recommendations that are understandable and relevant to each user's eligibility profile.",
-      learnings: "Learned how to connect social-impact requirements with AI-assisted recommendation features and stakeholder-driven product development."
+      challenges: "The most challenging part was changing the core MVP after field interviews showed that our initial subsidy-use map was less useful because of policy changes. We refocused the product around resident word-of-mouth information and senior-friendly settlement support, then simplified frontend data flows and UI structure to keep the experience clear for 50s-60s users.",
+      learnings: "Learned that solving a social-impact problem starts with field research, not just desk research. The project strengthened my ability to translate real user pain points into practical AI-assisted policy matching, senior-friendly UI, full-stack deployment, and stakeholder-driven product decisions."
     }
   },
   {

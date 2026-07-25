@@ -19,9 +19,11 @@ const Hero = ({ name, title, bio }) => {
             {bio}
           </p>
 
-          <div className="hero-tag animate-up delay-4">
-            <span>{title}</span>
-          </div>
+          {title && (
+            <div className="hero-tag animate-up delay-4">
+              <span>{title}</span>
+            </div>
+          )}
         </div>
 
         <div className="hero-image animate-up delay-2">

@@ -4,7 +4,6 @@ import { Home } from 'lucide-react';
 const NAV_ITEMS = [
   { label: 'projects', type: 'page', to: '/projects' },
   { label: 'languages', type: 'anchor', id: 'languages' },
-  { label: 'awards', type: 'anchor', id: 'awards' },
   { label: 'activities', type: 'page', to: '/activities' },
   { label: 'contact', type: 'anchor', id: 'contact' },
 ];

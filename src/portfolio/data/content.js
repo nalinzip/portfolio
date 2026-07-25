@@ -350,22 +350,26 @@ export const awards = [
   {
     title: "Honorable Mention Award, 2026 Spring Ewha CSE Capstone Project",
     organization: "Department of Computer Science and Engineering, Ewha Womans University",
-    date: "2026"
+    date: "2026",
+    to: "/project/capstone-project"
   },
   {
     title: "Grand Prize Team, JIN Ramen Student Supporter JIN&JINY 17th Generation",
     organization: "OTTOGI",
-    date: "2025"
+    date: "2025",
+    to: "/activity/jin-jiny"
   },
   {
     title: "Certificate of Completion, Kakao Tech for Impact Campus",
     organization: "Kakao Impact",
-    date: "2025"
+    date: "2025",
+    to: "/project/okcheon-ok"
   },
   {
     title: "Social Case Competition 2025: Semi-Final Round",
     organization: "AIESEC in Thailand",
-    date: "2025"
+    date: "2025",
+    to: "/activity/aiesec"
   },
   {
     title: "2026 Study in Korea Short-form Video Contest",

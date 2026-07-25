@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Nunnalin Heimvichit",
-  title: "My name in 2 languages handwritings by TXT Beomgyu",
+  title: "My name handwritten in two languages by TXT's Beomgyu",
   email: "nunnalin.h@gmail.com",
   github: "github.com/nalinzip",
   linkedin: "linkedin.com/in/nunnalin-heimvichit",

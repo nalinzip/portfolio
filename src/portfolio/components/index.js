@@ -4,7 +4,6 @@ export { default as Projects } from './Projects';
 export { default as Skills } from './Skills';
 export { default as Languages } from './Languages';
 export { default as Awards } from './Awards';
-export { default as Blog } from './Blog';
 export { default as Extracurriculars } from './Extracurriculars';
 export { default as Contact } from './Contact';
 export { default as Footer } from './Footer';

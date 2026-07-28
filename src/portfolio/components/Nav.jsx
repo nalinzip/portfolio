@@ -31,22 +31,20 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
   const renderLink = (item) => {
     if (item.type === 'group') {
       return (
-        <div className="nav-group" key={item.label}>
-          <span className="nav-link nav-group-label">{item.label}</span>
-          <div className="nav-dropdown">
-            {item.links.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="nav-dropdown-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
+        <div className="nav-blog-group" key={item.label}>
+          <span className="nav-blog-label">{item.label}</span>
+          {item.links.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="nav-blog-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
+            >
+              {link.label.toLowerCase()}
+            </a>
+          ))}
         </div>
       );
     }

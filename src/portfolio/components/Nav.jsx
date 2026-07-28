@@ -4,8 +4,14 @@ import { Home } from 'lucide-react';
 const NAV_ITEMS = [
   { label: 'projects', type: 'page', to: '/projects' },
   { label: 'languages', type: 'anchor', id: 'languages' },
-  { label: 'blog', type: 'external', href: 'https://medium.com/@nalinarchive' },
-  { label: 'velog', type: 'external', href: 'https://velog.io/@nunnalin/posts' },
+  {
+    label: 'blog',
+    type: 'group',
+    links: [
+      { label: 'Medium', href: 'https://medium.com/@nalinarchive' },
+      { label: 'Velog', href: 'https://velog.io/@nunnalin/posts' }
+    ]
+  },
   { label: 'activities', type: 'page', to: '/activities' },
   { label: 'contact', type: 'anchor', id: 'contact' },
 ];
@@ -23,18 +29,25 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
   };
 
   const renderLink = (item) => {
-    if (item.type === 'external') {
+    if (item.type === 'group') {
       return (
-        <a
-          key={item.label}
-          href={item.href}
-          className="nav-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={() => setMenuOpen(false)}
-        >
-          {item.label}
-        </a>
+        <div className="nav-group" key={item.label}>
+          <span className="nav-link nav-group-label">{item.label}</span>
+          <div className="nav-dropdown">
+            {item.links.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="nav-dropdown-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
       );
     }
 

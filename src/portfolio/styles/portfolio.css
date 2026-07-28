@@ -129,6 +129,53 @@
   width: calc(100% - 40px);
 }
 
+.nav-group {
+  position: relative;
+}
+
+.nav-group-label {
+  display: inline-block;
+  cursor: default;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  min-width: 150px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(20px);
+  border-radius: 18px;
+  box-shadow: 0 18px 50px rgba(0,0,0,0.12);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.nav-group:hover .nav-dropdown,
+.nav-group:focus-within .nav-dropdown {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.nav-dropdown-link {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.nav-dropdown-link:hover {
+  background: #f5f5f5;
+  color: #1a1a1a;
+}
+
 .menu-btn {
   display: none;
   flex-direction: column;
@@ -208,6 +255,37 @@
   padding: 16px 20px;
   background: #f5f5f5;
   border-radius: 16px;
+}
+
+.mobile-menu .nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobile-menu .nav-group-label {
+  width: 100%;
+}
+
+.mobile-menu .nav-dropdown {
+  position: static;
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+  box-shadow: none;
+  background: transparent;
+  padding: 0 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.mobile-menu .nav-dropdown-link {
+  font-size: 15px;
+  padding: 12px 18px;
+  background: #fafafa;
+  border-radius: 14px;
 }
 
 /* Hero Section */

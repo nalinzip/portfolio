@@ -1,5 +1,5 @@
-import { Hero, Projects, Skills, Languages, Experience, Awards, Extracurriculars, Contact, Footer } from '../components';
-import { personalInfo, projects, languageTests, skills, experiences, awards, extracurriculars } from '../data/content';
+import { Hero, Projects, Skills, Languages, Awards, Extracurriculars, Contact, Footer } from '../components';
+import { personalInfo, projects, languageTests, skills, awards, extracurriculars } from '../data/content';
 
 const Home = () => {
   return (
@@ -15,8 +15,6 @@ const Home = () => {
       <Skills skills={skills} />
       
       <Languages languageTests={languageTests} />
-
-      <Experience experiences={experiences} />
 
       <Awards awards={awards} />
 

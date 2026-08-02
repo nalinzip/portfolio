@@ -385,14 +385,6 @@ export const experiences = [
     to: "/project/okcheon-ok"
   },
   {
-    title: "AI Engineer, Frontend Developer & UX/UI Designer",
-    organization: "Ewha CSE Capstone Project",
-    period: "2026",
-    category: "computer-science",
-    summary: "Worked on AI-centered software development across NLP, frontend integration, and user-facing coaching experience design.",
-    to: "/project/capstone-project"
-  },
-  {
     title: "Board Member",
     organization: "Ewha Thai Student Association (ETSA)",
     period: "Spring 2024 - Fall 2026",

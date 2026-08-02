@@ -282,7 +282,7 @@ export const projects = [
     role: "Project Manager & Full-stack Developer",
     images: [],
     links: [
-      { name: "Kakao Impact Project Page", url: "https://kakao-impact-foundation.github.io/campus_2026_spring/projects/7/" }
+      { name: "Kakao Project Detail Page", url: "https://kakao-impact-foundation.github.io/campus_2026_spring/projects/7/" }
     ],
     details: {
       overview: "Participated in Kakao Tech for Impact, a social venture software development program supported by Kakao and mentored by Kakao developers, in collaboration with Okcheon Newspaper. Through field interviews with Okcheon return-to-farm residents, local activists, and public officials, our team identified that newcomers face fragmented, provider-centered policy information and high fatigue when trying to find support they are eligible for.",

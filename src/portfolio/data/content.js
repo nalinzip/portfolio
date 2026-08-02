@@ -391,14 +391,6 @@ export const experiences = [
     category: "language-related",
     summary: "Supported Thai students at Ewha through community building, cross-cultural communication, and student activities.",
     to: "/activity/etsa"
-  },
-  {
-    title: "Early-Altubitu Member",
-    organization: "Algorithms and Coding Test Preparation Club",
-    period: "Fall 2024",
-    category: "computer-science",
-    summary: "Practiced algorithmic problem-solving and coding-test preparation through structured study.",
-    to: "/activity/early-altubitu"
   }
 ];
 

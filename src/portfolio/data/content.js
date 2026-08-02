@@ -351,6 +351,65 @@ export const skills = {
   design: ["Figma", "Pixso", "Visual Paradigm"]
 };
 
+export const experiences = [
+  {
+    title: "Thai-Korean Interpreter & Game Localization Freelancer",
+    organization: "Freelance",
+    period: "Spring 2025 - Present",
+    category: "language-related",
+    summary: "Localized and QA-tested multilingual game and narrative content across Thai, Korean, and English.",
+    to: "/project/puni-the-florist"
+  },
+  {
+    title: "Head of IT Department",
+    organization: "Thai Student Association in the Republic of Korea (TSAK)",
+    period: "Fall 2024 - Spring 2026",
+    category: "computer-science",
+    summary: "Led digital platform planning, web development, stakeholder coordination, and technical documentation for the Thai student community in Korea.",
+    to: "/activity/tsak"
+  },
+  {
+    title: "Machine Learning Division Member",
+    organization: "Ewha Computer Club (ECC)",
+    period: "Spring 2025 - Present",
+    category: "computer-science",
+    summary: "Studied machine learning concepts through club activities and contributed to collaborative technical projects.",
+    to: "/activity/ecc"
+  },
+  {
+    title: "Kakao Tech for Impact Campus Participant",
+    organization: "Kakao Impact",
+    period: "2025 - 2026",
+    category: "computer-science",
+    summary: "Built social-impact software with Kakao developer mentoring, applying AI-assisted policy matching and full-stack product development.",
+    to: "/project/okcheon-ok"
+  },
+  {
+    title: "AI Engineer, Frontend Developer & UX/UI Designer",
+    organization: "Ewha CSE Capstone Project",
+    period: "2026",
+    category: "computer-science",
+    summary: "Worked on AI-centered software development across NLP, frontend integration, and user-facing coaching experience design.",
+    to: "/project/capstone-project"
+  },
+  {
+    title: "Board Member",
+    organization: "Ewha Thai Student Association (ETSA)",
+    period: "Spring 2024 - Fall 2026",
+    category: "language-related",
+    summary: "Supported Thai students at Ewha through community building, cross-cultural communication, and student activities.",
+    to: "/activity/etsa"
+  },
+  {
+    title: "Early-Altubitu Member",
+    organization: "Algorithms and Coding Test Preparation Club",
+    period: "Fall 2024",
+    category: "computer-science",
+    summary: "Practiced algorithmic problem-solving and coding-test preparation through structured study.",
+    to: "/activity/early-altubitu"
+  }
+];
+
 export const awards = [
   {
     title: "Honorable Mention Award, 2026 Spring Ewha CSE Capstone Project",

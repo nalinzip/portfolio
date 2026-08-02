@@ -15,7 +15,7 @@ const Contact = ({ email, github, linkedin }) => {
         <div className="contact-grid">
           <div>
             <p className="contact-text">
-              Open to opportunities
+              Open to new opportunities.
             </p>
           </div>
           

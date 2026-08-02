@@ -7,6 +7,11 @@ const FILTERS = [
   { label: 'computer science-related', value: 'computer-science' }
 ];
 
+const CATEGORY_LABELS = {
+  'language-related': 'language-related',
+  'computer-science': 'computer science-related'
+};
+
 const Experience = ({ experiences }) => {
   const [activeFilter, setActiveFilter] = useState('all');
 
@@ -41,7 +46,7 @@ const Experience = ({ experiences }) => {
             const content = (
               <>
                 <div>
-                  <span className="experience-category">{experience.category}</span>
+                  <span className="experience-category">{CATEGORY_LABELS[experience.category]}</span>
                   <h3 className="experience-item-title">{experience.title}</h3>
                   <p className="experience-org">{experience.organization}</p>
                   <p className="experience-summary">{experience.summary}</p>

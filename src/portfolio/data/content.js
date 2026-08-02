@@ -84,7 +84,7 @@ export const projects = [
     role: "Frontend Developer & UX/UI Designer",
     links: [
       { name: "GitHub Repo", url: "https://github.com/ECC-WeWha" },
-      { name: "Try our demo", url: "https://wewha.netlify.app" }
+      { name: "Try Demo", url: "https://wewha.netlify.app" }
     ],
     images: [
       {url: "/portfolio/images/wewha1.png", caption: "WeWha 위화"},
@@ -109,8 +109,8 @@ export const projects = [
   {
     id: "testd",
     title: "TestD - Thai-Korean Personality Test Game",
-    description: "Multilingual personality test game — localized from Korean into Thai and English, with custom UX/UI design and original illustrations.",
-    tech: ["UX/UI Design", "Localization", "Korean–Thai Translation", "Korean–English Translation", "Illustration", "Frontend Development"],
+    description: "Multilingual personality test game localized from Korean into Thai and English, with custom UX/UI design and original illustrations.",
+    tech: ["UX/UI Design", "Localization", "Korean-Thai Translation", "Korean-English Translation", "Illustration", "Frontend Development"],
     year: "Summer 2025",
     role: "Translator, UX/UI Designer, Illustrator, Service Planner & Frontend Developer",
     images: [
@@ -120,23 +120,23 @@ export const projects = [
       { name: "GitHub Repo", url: "https://github.com/ECC-WeWha" },
     ],
     details: {
-      overview: "A fun personality test game originally in Korean, localized into both Thai and English to reach a wider audience. Features original illustrations and a multilingual UX tailored to each target culture.",
+      overview: "A fun personality test game originally in Korean, localized into both Thai and English to reach a wider audience. It features original illustrations and multilingual UX tailored to each target culture.",
       features: [
-        "Korean → Thai localization",
-        "Korean → English localization",
+        "Korean-to-Thai localization",
+        "Korean-to-English localization",
         "Custom icon illustrations",
         "Multilingual UX/UI design",
         "Frontend implementation support",
         "Service planning for personality-test gameplay"
       ],
       challenges: "Preserving tone, humor, and cultural nuance across both Thai and English translations while keeping the gameplay feel consistent.",
-      learnings: "Gained hands-on experience in game localization — adapting content across two target languages simultaneously and designing UX that works for multiple locales."
+      learnings: "Gained hands-on experience in game localization, adapting content across two target languages simultaneously and designing UX that works for multiple locales."
     }
   },
   {
     id: "market-charity",
-    title: "Software System Design : Nanum Store; Ewha Market for Charity Application ",
-    description: "Software System Design project with UML-based application design for a charity marketplace platform. On-campus second-hand store project at Ewha Womans University where all profit supports scholarships, facilities, student activities, and donations.",
+    title: "Software System Design: Nanum Store, Ewha Market for Charity Application",
+    description: "Software system design project with UML-based application design for a charity marketplace platform. This on-campus secondhand store project at Ewha Womans University supports scholarships, facilities, student activities, and donations.",
     tech: ["UML", "Visual Paradigm", "Figma"],
     year: "Spring 2023",
     role: "Software System Designer",
@@ -147,12 +147,12 @@ export const projects = [
     details: {
       overview: "Comprehensive software system design for a charity-focused marketplace application, utilizing UML diagrams and prototyping tools.",
       features: [
-        "Designed a hi-fi prototype mobile app to help operate the store, manage inventory, and connect donations with digital records.",
-        "Designed an in-app incentive system that rewards donors with points/badges, converts digital rewards into real-life benefits (discounts, opportunities, etc.)",
-        "Planned volunteer and part-time incentives, tracking contributions through the app.",
-        "Aimed to transform the store into a self-service second-hand store using the app, smart tags, and automated flows.",
-        "Introduced a 24-hour smart donation box with an embedded smart camera to receive donations anytime on campus and automatically register items to reduce staff workload.",
-        "Our goal is to promote a sustainable lifestyle on campus while making store operations more efficient, data-driven, and student-friendly."
+        "Designed a high-fidelity mobile app prototype to help operate the store, manage inventory, and connect donations with digital records",
+        "Designed an in-app incentive system that rewards donors with points and badges, converting digital rewards into real-life benefits such as discounts and opportunities",
+        "Planned volunteer and part-time incentives, with contributions tracked through the app",
+        "Proposed transforming the store into a self-service secondhand store using the app, smart tags, and automated flows",
+        "Introduced a 24-hour smart donation box with an embedded camera to receive donations anytime on campus and automatically register items to reduce staff workload",
+        "Promoted a sustainable lifestyle on campus while making store operations more efficient, data-driven, and student-friendly"
       ],
       challenges: "Designing a scalable system architecture that serves both donors and charitable organizations effectively.",
       learnings: "Strengthened understanding of software engineering principles, UML modeling, and system design methodologies."
@@ -161,8 +161,8 @@ export const projects = [
   {
     id: "online-market",
     title: "Online Market Website",
-    description: "Full-stack online marketplace website developed as part of Open Software Development course.",
-    tech: ["Kakao Log-in API", "Kakao Address API", "Flask", "Firebase", "HTML", "CSS", "JavaScript", "Github", "Figma"],
+    description: "Full-stack online marketplace website developed as part of the Open Software Development course.",
+    tech: ["Kakao Login API", "Kakao Address API", "Flask", "Firebase", "HTML", "CSS", "JavaScript", "GitHub", "Figma"],
     year: "2024",
     role: "Full-stack Developer",
     images: [ 
@@ -192,11 +192,11 @@ export const projects = [
   },
   {
     id: "connecthai",
-    title: "Human-computer Interaction Project: ConnecThai",
-    description: "An application which aims to help Thai students abroad find comfort, community, and confidence. - Stay connected, even far from home",
-    tech: ["Figma", "UX/UI Design", "Human-computer Interaction", "Hi-fi Prototype Design"],
+    title: "Human-Computer Interaction Project: ConnecThai",
+    description: "An application that helps Thai students abroad find comfort, community, and confidence. Stay connected, even far from home.",
+    tech: ["Figma", "UX/UI Design", "Human-Computer Interaction", "High-Fidelity Prototype Design"],
     year: "Fall 2025",
-    role: "Mobile Application Designer",
+    role: "Mobile App Designer",
     images: [ 
       // {url: "/portfolio/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
     ],
@@ -212,8 +212,8 @@ export const projects = [
         "Find friends by university, region, interests, language exchange goals",
         "Group chats by event, such as Ewha Thai and Hongdae hangout groups",
       ],
-      challenges: "Complicated community platform structure with various features to accommodate different user needs.",
-      learnings: "In the future, this platform can be expanded into a separate application for international students from diverse nationalities studying abroad."
+      challenges: "Designing a complex community platform with varied features that support different user needs.",
+      learnings: "This concept could be expanded into a standalone platform for international students from diverse national backgrounds."
     }
   },
   {
@@ -222,7 +222,7 @@ export const projects = [
     description: "Mobile good-luck charm app inspired by Lucky Girl Syndrome, helping users reduce anxiety and build confidence through daily fortune rituals.",
     tech: ["Figma", "UX/UI Design", "React Native", "Expo Go", "HTML", "CSS", "JavaScript", "Public APIs", "Spotify API"],
     year: "Fall 2025",
-    role: "Mobile Application Designer",
+    role: "Mobile App Designer",
     images: [ 
       // {url: "/portfolio/images/POTG.jpeg", caption: "POTG - Online Marketplace Website Screenshot"},
     ],
@@ -235,17 +235,17 @@ export const projects = [
         "Boost self-confidence and emotional stability",
         "Reduce daily anxiety through small, positive rituals",
         "Improve accessibility to comforting fortune content anytime, anywhere",
-        "Omamori Home : Daily, weekly, and monthly fortunes, Birthdate input with automatic Zodiac calculation, Uses a public Horoscope API",
+        "Omamori Home: Daily, weekly, and monthly fortunes, birthdate input with automatic Zodiac calculation, and public Horoscope API integration",
         "Fortune Cookie (expo-av): Interactive fortune-cookie experience with sound effects, Random motivational messages and quotes via API",
-        "Lucky Color Chart (2025) : Recommended lucky colors by day of the week",
-        "My Lucky Diary : Record happy moments, favorite songs, breathing exercises (react-native-calendars)",
+        "Lucky Color Chart (2025): Recommended lucky colors by day of the week",
+        "My Lucky Diary: Records happy moments, favorite songs, and breathing exercises with react-native-calendars",
         "Photo upload via camera or gallery (expo-image-picker)",
         "Spotify API integration to log favorite music",
         "Clover collection as a visual reward system (@react-native-async-storage/async-storage)",
-        "My Lucky Time : Calculates lucky time slots based on birthdate and birth weekday",
-        "Breathing Exercise Mode : Guided breathing with animation"
+        "My Lucky Time: Calculates lucky time slots based on birthdate and birth weekday",
+        "Breathing Exercise Mode: Guided breathing with animation"
       ],
-      challenges: "API Key restrictions and managing multiple features in a single app while maintaining a smooth user experience.",
+      challenges: "Managing API key restrictions and multiple feature flows in a single app while maintaining a smooth user experience.",
       learnings: "Developed skills in mobile app design and development using React Native, integrating various APIs, and creating user-centric features for emotional well-being."
     }
   },
@@ -275,7 +275,7 @@ export const projects = [
   },
   {
     id: "okcheon-ok",
-    title: "Kakao Tech For Impact: Okcheon-OK",
+    title: "Kakao Tech for Impact: Okcheon-OK",
     description: "Personalized policy curation and local settlement platform for Okcheon return-to-farm and rural migration residents, built through Kakao Tech for Impact.",
     tech: ["Claude API", "Kakao Login", "Kakao Map", "Supabase", "Railway", "Netlify", "Policy Matching", "Full-stack Development", "Social Impact"],
     year: "2026",
@@ -302,7 +302,7 @@ export const projects = [
   {
     id: "puni-the-florist",
     title: "Puni the Florist",
-    description: "Indie game on Steam — contributed as a Korean localizer, translating from Thai and English sources for this cozy florist simulation game.",
+    description: "Indie game on Steam where I contributed as a Korean localizer, translating from Thai and English sources for this cozy florist simulation game.",
     tech: ["Localization", "Korean Language", "Translation"],
     year: "2025",
     role: "Korean Localizer",
@@ -353,11 +353,11 @@ export const skills = {
 
 export const experiences = [
   {
-    title: "Thai-Korean Interpreter & Game Localization Freelancer",
+    title: "Thai-Korean Interpreter and Game Localization Freelancer",
     organization: "Freelance",
     period: "Spring 2025 - Present",
     category: "language-related",
-    summary: "Localized and QA-tested multilingual game and narrative content across Thai, Korean, and English.",
+    summary: "Localized and QA-tested multilingual game and narrative content in Thai, Korean, and English.",
     to: "/project/puni-the-florist"
   },
   {
@@ -381,7 +381,7 @@ export const experiences = [
     organization: "Kakao Impact",
     period: "2025 - 2026",
     category: "computer-science",
-    summary: "Built social-impact software with Kakao developer mentoring, applying AI-assisted policy matching and full-stack product development.",
+    summary: "Built social-impact software with Kakao developer mentorship, applying AI-assisted policy matching and full-stack product development.",
     to: "/project/okcheon-ok"
   },
   {
@@ -526,7 +526,7 @@ export const extracurriculars = [
     title: "OTTOGI JIN Ramen Student Supporter",
     role: "JIN&JINY 17th - Grand Prize Team",
     period: "Summer 2025",
-    description: "Selected as winner of OTTOGI JIN Ramen's student supporter program.",
+    description: "Selected as the Grand Prize Team in OTTOGI JIN Ramen's student supporter program.",
     highlights: ["Brand ambassador", "Marketing", "Competition winner"],
     details: {
       overview: "Selected as the Grand Prize Team of the 17th generation JIN&JINY program, OTTOGI's student supporter initiative.",
@@ -537,15 +537,15 @@ export const extracurriculars = [
         "Event participation"
       ],
       achievements: [
-        "Selected as program winner",
+        "Selected as the Grand Prize Team",
         "Successful brand campaigns",
         "Creative marketing contributions"
       ],
       impact: "Gained marketing experience while representing a major Korean food brand."
     },
     links: [
-      { name: "Instagram : isfj_jinjjalover", url: "https://instagram.com/isfj_jinjjalover" },
-      { name: "Tiktok : isfj_jinjjalover", url: "https://www.tiktok.com/@isfjin_jjalover?_t=ZS-8xqUDmkaLiC&_r=1" }
+      { name: "Instagram: isfj_jinjjalover", url: "https://instagram.com/isfj_jinjjalover" },
+      { name: "TikTok: isfj_jinjjalover", url: "https://www.tiktok.com/@isfjin_jjalover?_t=ZS-8xqUDmkaLiC&_r=1" }
     ], 
      
     images: [ 
@@ -557,7 +557,7 @@ export const extracurriculars = [
     title: "Social Case Competition 2025",
     role: "Semi-Finalist",
     period: "2025",
-    description: "AIESEC in Thailand — Reached semi-final round in social impact competition.",
+    description: "Reached the semi-final round in AIESEC Thailand's social impact competition.",
     highlights: ["Semi-final", "Social impact", "Case competition"],
     details: {
       overview: "Participated in AIESEC Thailand's Social Case Competition 2025, advancing to the semi-final round with innovative social impact solutions.",
@@ -568,7 +568,7 @@ export const extracurriculars = [
         "Research and strategy"
       ],
       achievements: [
-        "Advanced to semi-final round",
+        "Advanced to the semi-final round",
         "Developed viable social solutions",
         "Cross-functional teamwork"
       ],

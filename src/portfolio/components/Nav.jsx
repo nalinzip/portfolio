@@ -20,6 +20,20 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
   const location = useLocation();
   const isHome = location.pathname === '/';
 
+  const isActiveItem = (item) => {
+    if (item.type === 'page') {
+      if (item.to === '/projects') {
+        return location.pathname === '/projects' || location.pathname.startsWith('/project/');
+      }
+      if (item.to === '/activities') {
+        return location.pathname === '/activities' || location.pathname.startsWith('/activity/');
+      }
+      return location.pathname === item.to;
+    }
+
+    return false;
+  };
+
   const handleAnchorClick = (e, id) => {
     setMenuOpen(false);
     if (isHome) {
@@ -54,7 +68,7 @@ const Nav = ({ name, menuOpen, setMenuOpen }) => {
         <Link
           key={item.label}
           to={item.to}
-          className="nav-link"
+          className={`nav-link ${isActiveItem(item) ? 'active' : ''}`}
           onClick={() => setMenuOpen(false)}
         >
           {item.label}

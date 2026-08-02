@@ -125,8 +125,13 @@
   color: #1a1a1a;
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   width: calc(100% - 40px);
+}
+
+.nav-link.active {
+  color: #1a1a1a;
 }
 
 .nav-blog-group {

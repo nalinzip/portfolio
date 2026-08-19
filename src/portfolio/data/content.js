@@ -357,6 +357,7 @@ export const experiences = [
     organization: "Freelance",
     period: "Spring 2025 - Present",
     category: "language-related",
+    sortOrder: 1,
     summary: "Localized and QA-tested multilingual game and narrative content in Thai, Korean, and English.",
     to: "/project/puni-the-florist"
   },
@@ -365,6 +366,7 @@ export const experiences = [
     organization: "Thai Student Association in the Republic of Korea (TSAK)",
     period: "Fall 2024 - Spring 2026",
     category: "computer-science",
+    sortOrder: 4,
     summary: "Led digital platform planning, web development, stakeholder coordination, and technical documentation for the Thai student community in Korea.",
     to: "/activity/tsak"
   },
@@ -373,6 +375,7 @@ export const experiences = [
     organization: "Ewha Computer Club (ECC)",
     period: "Spring 2025 - Present",
     category: "computer-science",
+    sortOrder: 2,
     summary: "Studied machine learning concepts through club activities and contributed to collaborative technical projects.",
     to: "/activity/ecc"
   },
@@ -381,6 +384,7 @@ export const experiences = [
     organization: "Kakao Impact",
     period: "2025 - 2026",
     category: "computer-science",
+    sortOrder: 5,
     summary: "Built social-impact software with Kakao developer mentorship, applying AI-assisted policy matching and full-stack product development.",
     to: "/project/okcheon-ok"
   },
@@ -389,6 +393,7 @@ export const experiences = [
     organization: "Ewha Thai Student Association (ETSA)",
     period: "Spring 2024 - Fall 2026",
     category: "language-related",
+    sortOrder: 3,
     summary: "Supported Thai students at Ewha through community building, cross-cultural communication, and student activities.",
     to: "/activity/etsa"
   }
@@ -471,6 +476,9 @@ export const extracurriculars = [
       ],
       impact: "Built a supportive community for Thai students at Ewha, helping with adaptation and cultural integration."
     },
+    links: [
+      { name: "Ewha iNews Article", url: "https://inews.ewha.ac.kr/news/articleView.html?idxno=75302" }
+    ],
     images: []
   },
   {

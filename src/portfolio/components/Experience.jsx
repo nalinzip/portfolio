@@ -16,8 +16,12 @@ const Experience = ({ experiences }) => {
   const [activeFilter, setActiveFilter] = useState('all');
 
   const filteredExperiences = useMemo(() => {
-    if (activeFilter === 'all') return experiences;
-    return experiences.filter((experience) => experience.category === activeFilter);
+    const visibleExperiences =
+      activeFilter === 'all'
+        ? experiences
+        : experiences.filter((experience) => experience.category === activeFilter);
+
+    return [...visibleExperiences].sort((a, b) => a.sortOrder - b.sortOrder);
   }, [activeFilter, experiences]);
 
   return (
